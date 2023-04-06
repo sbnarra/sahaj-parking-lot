@@ -8,7 +8,7 @@ The code is made up of 3 packages, `lot` for parking lot logic, `model` to repre
 
 The parking lot codes main entry point is the `ParkingLotFactory` which gives you access to "standard" parking lot configurations for mall, stadium and airport though you can create your own custom implementations.
 
-The standard parking lot using the `SpotManager` to obtain/release parking spots and the `FeeCalculator` to calculator the final parking fee, these can be replaced with new implementations if you need to manage spot availability or fee calculation in a different way. There shouldn't be a need for a custom `ParkingLot` implementation but you can create a custom implementation to change the interactions with the spot manager and fee calculator if needed.
+The standard parking lot uses the `SpotManager` to obtain/release parking spots and the `FeeCalculator` to calculator the final parking fee, these can be replaced with new implementations if you need to manage spot availability or fee calculation in a different way. There shouldn't be a need for a custom `ParkingLot` implementation but you can create a custom implementation to change the interactions with the spot manager and fee calculator if needed.
 
 ...
 
